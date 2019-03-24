@@ -105,7 +105,15 @@ func (s *stack) switchMode() {
 }
 
 func (s *stack) compact() {
-	s.river = append(s.river, resolve(s.stacks[upstream], s.stacks[downstream])...)
+	ls, rs := resolve(reverse(s.stacks[downstream]), s.stacks[upstream])
+	s.river = append(s.river, append(reverse(ls), rs...)...)
+}
+
+func reverse(f []fish) ([]fish) {
+	for left, right := 0, len(f)-1; left < right; left, right = left+1, right-1 {
+		f[left], f[right] = f[right], f[left]
+	}
+	return f
 }
 
 func (s *stack) flush() {
@@ -113,12 +121,9 @@ func (s *stack) flush() {
 	s.stacks[downstream] = []fish{}
 }
 
-func resolve(ls []fish, rs []fish) []fish {
-	if len(ls) == 0 {
-		return rs
-	}
-	if len(rs) == 0 {
-		return ls
+func resolve(ls []fish, rs []fish) ([]fish, []fish) {
+	if len(ls) == 0 || len(rs) == 0 {
+		return ls, rs
 	}
 
 	for {
