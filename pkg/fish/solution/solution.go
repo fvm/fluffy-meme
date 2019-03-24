@@ -1,53 +1,133 @@
 package solution
 
-// you can also use imports, for example:
-// import "fmt"
-// import "os"
-
-// you can write to stdout for debugging purposes, e.g.
-// fmt.Println("this is a debug message")
-
 type fish struct {
-	idx       int
+	name      int
 	size      int
-	direction int
+	direction stackselector
 }
 
+type mode int
+
+type stackselector int
+
+const (
+	upstream stackselector = iota
+	downstream
+)
+
+// mode can (later) be used to check for lock status
+const (
+	accumulate mode = iota
+	compact
+)
+
 func Solution(A []int, B []int) int {
+
 	// write your code in Go 1.4
-	var river []fish
+	var fishies []fish
+	if len(A) == 0 {
+		return 0
+	}
 
 	for i := range A {
-		river = append(river, fish{
-			i,
-			A[i],
-			B[i],
+		fishies = append(fishies, fish{
+			name:      i,
+			size:      A[i],
+			direction: stackselector(B[i]),
 		})
 	}
 
-	for t := 0; ; t++ { // time
-		var remaining []fish
-		for i := range remaining { //fishies
-			if river[i].direction == 0 { // Upstream
-				remaining = append(remaining, river[i])
-				continue
-			}
+	s := stack{
+		river:         []fish{},
+		stackselector: downstream,
+		mode:          accumulate,
+		stacks:        map[stackselector][]fish{upstream: {}, downstream: {}},
+	}
 
-			if len(river)-i <= 1 { // Last fish
-				remaining = append(remaining, river[i])
-				continue
-			}
+	for {
+		head := fishies[0]
+		s.add(head)
+		if len(fishies) <= 1 {
+			s.compact()
+			s.flush()
+			break
+		}
+		fishies = fishies[1:]
 
-			if river[i].direction == 1 { // Downstream
-				if river[i+1].direction == 0 { // Collision
-					if river[i].size < river[i+1].size {
-						continue // drop this fishie
-					}
-				}
+	}
+	return len(s.river)
+}
 
-			}
+func (s *stack) add(f fish) {
+	switch f.direction {
+	case upstream:
+		if s.stackselector == downstream {
+			s.switchStack()
+		}
+		s.stacks[upstream] = append(s.stacks[upstream], f)
+	case downstream:
+		if s.stackselector == upstream {
+			s.switchStack()
+		}
+		s.stacks[downstream] = append(s.stacks[downstream], f)
+	}
+}
 
+type stack struct {
+	river         []fish
+	stackselector stackselector
+	mode          mode
+	stacks        map[stackselector][]fish
+}
+
+func (s *stack) switchStack() {
+	switch s.stackselector {
+	case downstream:
+		s.stackselector = upstream
+	case upstream:
+		defer func() {
+			s.switchMode()
+			s.compact()
+			s.flush()
+			s.switchMode()
+		}()
+		s.stackselector = downstream
+	}
+}
+
+func (s *stack) switchMode() {
+	switch s.mode {
+	case accumulate:
+		s.mode = compact
+	case compact:
+		s.mode = accumulate
+	}
+}
+
+func (s *stack) compact() {
+	s.river = append(s.river, resolve(s.stacks[upstream], s.stacks[downstream])...)
+}
+
+func (s *stack) flush() {
+	s.stacks[upstream] = []fish{}
+	s.stacks[downstream] = []fish{}
+}
+
+func resolve(ls []fish, rs []fish) []fish {
+	if len(ls) == 0 {
+		return rs
+	}
+	if len(rs) == 0 {
+		return ls
+	}
+
+	for {
+		lh, rh := ls[0], rs[0]
+		if lh.size < rh.size {
+			return resolve(ls[1:], rs)
+		} else {
+			return resolve(ls, rs[1:])
 		}
 	}
-	return 0
+
 }
