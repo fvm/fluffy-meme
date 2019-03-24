@@ -34,7 +34,7 @@ func BenchmarkSolution(b *testing.B) {
 		A []int
 		B []int
 	}
-	tests := []struct {
+	benches := []struct {
 		name string
 		args args
 	}{
@@ -42,11 +42,9 @@ func BenchmarkSolution(b *testing.B) {
 			A: []int{4, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5, 3, 2, 1, 5},
 			B: []int{0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0}}},
 	}
-	for _, bb := range tests {
+	for _, bb := range benches {
 		for n := 0; n < b.N; n++ {
-			b.Run(bb.name, func(b *testing.B) {
-				_ = solution.Solution(bb.args.A, bb.args.B)
-			})
+			_ = solution.Solution(bb.args.A, bb.args.B)
 		}
 	}
 }

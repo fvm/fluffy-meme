@@ -85,12 +85,11 @@ func (s *stack) switchStack() {
 	case downstream:
 		s.stackselector = upstream
 	case upstream:
-		defer func() {
-			s.switchMode()
-			s.compact()
-			s.flush()
-			s.switchMode()
-		}()
+		s.switchMode()
+		s.compact()
+		s.flush()
+		s.switchMode()
+
 		s.stackselector = downstream
 	}
 }
