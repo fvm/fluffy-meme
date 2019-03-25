@@ -1,3 +1,3 @@
 # fluffy-meme
 
-Some programming excercises
+Some programming exercises
