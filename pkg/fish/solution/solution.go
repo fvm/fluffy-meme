@@ -5,15 +5,13 @@ import "log"
 type fish struct {
 	name      int
 	size      int
-	direction stackselector
+	direction direction
 }
 
-type mode int
-
-type stackselector int
+type direction int
 
 const (
-	upstream stackselector = iota
+	upstream direction = iota
 	downstream
 )
 
@@ -29,14 +27,14 @@ func Solution(A []int, B []int) int {
 		fishies = append(fishies, fish{
 			name:      i,
 			size:      A[i],
-			direction: stackselector(B[i]),
+			direction: direction(B[i]),
 		})
 	}
 
 	s := stack{
-		river:         []fish{},
-		stackselector: downstream,
-		stacks:        map[stackselector][]fish{upstream: {}, downstream: {}},
+		river:     []fish{},
+		direction: downstream,
+		stacks:    map[direction][]fish{upstream: {}, downstream: {}},
 	}
 
 	for {
@@ -53,33 +51,25 @@ func Solution(A []int, B []int) int {
 }
 
 func (s *stack) add(f fish) {
-	switch f.direction {
-	case upstream:
-		if s.stackselector == downstream {
-			s.stackselector = upstream
-		}
-	case downstream:
-		if s.stackselector == upstream {
-			s.stackselector = downstream
-		}
-		s.compact()
+	if f.direction != s.direction {
+		s.switchDirection()
 	}
-	s.stacks[s.stackselector] = append(s.stacks[s.stackselector], f)
+	s.stacks[s.direction] = append(s.stacks[s.direction], f)
 }
 
 type stack struct {
-	river         []fish
-	stackselector stackselector
-	mode          mode
-	stacks        map[stackselector][]fish
+	river     []fish
+	direction direction
+	stacks    map[direction][]fish
 }
 
-func (s *stack) switchStack() {
-	switch s.stackselector {
+func (s *stack) switchDirection() {
+	switch s.direction {
 	case downstream:
-		s.stackselector = upstream
+		s.direction = upstream
 	case upstream:
-		s.stackselector = downstream
+		s.compact()
+		s.direction = downstream
 	}
 }
 
