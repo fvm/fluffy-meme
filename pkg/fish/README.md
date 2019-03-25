@@ -1,6 +1,7 @@
 # Fish
 N voracious fish are moving along a river. Calculate how many fish are alive.
 
+## Task
 You are given two non-empty arrays `A` and `B` consisting of `N` integers. Arrays `A` and `B` represent `N` voracious fish in a river, ordered downstream along the flow of the river.
 
 The fish are numbered from `0` to `N − 1`. If `P` and `Q` are two fish and `P < Q`, then fish `P` is initially upstream of fish `Q`. Initially, each fish has a unique position.
