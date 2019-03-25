@@ -1,7 +1,7 @@
 package solution_test
 
 import (
-	"github.com/fvm/fluffy-meme/cmd/missing-integer/solution"
+	"github.com/fvm/fluffy-meme/pkg/missing-integer/solution"
 	"testing"
 )
 
