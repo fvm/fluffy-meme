@@ -1,5 +1,7 @@
 package solution
 
+import "log"
+
 type fish struct {
 	name      int
 	size      int
@@ -13,12 +15,6 @@ type stackselector int
 const (
 	upstream stackselector = iota
 	downstream
-)
-
-// mode can (later) be used to check for lock status
-const (
-	accumulate mode = iota
-	compact
 )
 
 func Solution(A []int, B []int) int {
@@ -40,7 +36,6 @@ func Solution(A []int, B []int) int {
 	s := stack{
 		river:         []fish{},
 		stackselector: downstream,
-		mode:          accumulate,
 		stacks:        map[stackselector][]fish{upstream: {}, downstream: {}},
 	}
 
@@ -53,7 +48,6 @@ func Solution(A []int, B []int) int {
 			break
 		}
 		fishies = fishies[1:]
-
 	}
 	return len(s.river)
 }
@@ -62,15 +56,15 @@ func (s *stack) add(f fish) {
 	switch f.direction {
 	case upstream:
 		if s.stackselector == downstream {
-			s.switchStack()
+			s.stackselector = upstream
 		}
-		s.stacks[upstream] = append(s.stacks[upstream], f)
 	case downstream:
 		if s.stackselector == upstream {
-			s.switchStack()
+			s.stackselector = downstream
 		}
-		s.stacks[downstream] = append(s.stacks[downstream], f)
+		s.compact()
 	}
+	s.stacks[s.stackselector] = append(s.stacks[s.stackselector], f)
 }
 
 type stack struct {
@@ -85,27 +79,30 @@ func (s *stack) switchStack() {
 	case downstream:
 		s.stackselector = upstream
 	case upstream:
-		s.switchMode()
-		s.compact()
-		s.flush()
-		s.switchMode()
-
 		s.stackselector = downstream
 	}
 }
 
-func (s *stack) switchMode() {
-	switch s.mode {
-	case accumulate:
-		s.mode = compact
-	case compact:
-		s.mode = accumulate
+func (s *stack) compact() {
+
+	down, up := resolve(reverse(s.stacks[downstream]), s.stacks[upstream])
+
+	// Either up or down will be empty
+	if len(down) != 0 && len(up) != 0 {
+		log.Fatal("Whups")
 	}
+
+	// Upstream go off into the river
+	s.river = append(s.river, up...)
+	// Downstream keep swimming
+	s.stacks[upstream] = []fish{}
+	s.stacks[downstream] = down
+
 }
 
-func (s *stack) compact() {
-	ls, rs := resolve(reverse(s.stacks[downstream]), s.stacks[upstream])
-	s.river = append(s.river, append(reverse(ls), rs...)...)
+func (s *stack) flush() {
+	s.river = append(s.river, s.stacks[upstream]...)
+	s.river = append(s.river, s.stacks[downstream]...)
 }
 
 func reverse(f []fish) ([]fish) {
@@ -115,22 +112,17 @@ func reverse(f []fish) ([]fish) {
 	return f
 }
 
-func (s *stack) flush() {
-	s.stacks[upstream] = []fish{}
-	s.stacks[downstream] = []fish{}
-}
-
-func resolve(ls []fish, rs []fish) ([]fish, []fish) {
-	if len(ls) == 0 || len(rs) == 0 {
-		return ls, rs
+func resolve(downstack []fish, upstack []fish) ([]fish, []fish) {
+	if len(upstack) == 0 || len(downstack) == 0 {
+		return downstack, upstack
 	}
 
 	for {
-		lh, rh := ls[0], rs[0]
-		if lh.size < rh.size {
-			return resolve(ls[1:], rs)
+		downhead, uphead := downstack[0], upstack[0]
+		if downhead.size < uphead.size {
+			return resolve(downstack[1:], upstack)
 		} else {
-			return resolve(ls, rs[1:])
+			return resolve(downstack, upstack[1:])
 		}
 	}
 
