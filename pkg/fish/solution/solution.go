@@ -95,7 +95,7 @@ func (s *stack) flush() {
 	s.river = append(s.river, s.stacks[downstream]...)
 }
 
-func reverse(f []fish) ([]fish) {
+func reverse(f []fish) []fish {
 	for left, right := 0, len(f)-1; left < right; left, right = left+1, right-1 {
 		f[left], f[right] = f[right], f[left]
 	}

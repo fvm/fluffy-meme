@@ -73,7 +73,7 @@ func BenchmarkSolution(b *testing.B) {
 		return benches
 	}
 
-	var benches = genbenches([]int{10, 100, 1000, 1000, 1000, 10000, 100000})
+	var benches = genbenches([]int{10, 100, 1000, 10000, 100000, 1000000, 10000000})
 
 	for _, bb := range benches {
 		b.Run(bb.name, func(b *testing.B) {
