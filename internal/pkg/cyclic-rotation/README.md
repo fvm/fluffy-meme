@@ -29,6 +29,8 @@ the function should return `[9, 7, 6, 3, 8]`. Three rotations were made:
     [7, 6, 3, 8, 9] -> [9, 7, 6, 3, 8]
 ```
 
+
+
 For another example, given
 
 ```
