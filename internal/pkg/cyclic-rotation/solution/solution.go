@@ -7,13 +7,12 @@ func Solution(A []int, K int) []int {
 		return A
 	}
 
-	// write your code in Go 1.4
 	r := ring.New(len(A))
 	for i := range A {
 		r.Value = A[i]
 		r = r.Next()
 	}
-	r = r.Move(K)
+	r = r.Move(-1 * K) // Move **RIGHT** (not left)
 	for i := 0; i < r.Len(); i++ {
 		A[i] = r.Value.(int)
 		r = r.Next()
