@@ -1,1 +1,3 @@
-# Orchard v1
+# Version 1
+
+The brute force approach
