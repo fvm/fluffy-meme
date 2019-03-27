@@ -17,7 +17,11 @@ func TestSolution(t *testing.T) {
 		args args
 		want int
 	}{
-		{name: "poep", args: args{N: 10, M: 4}, want: 5},
+		{name: " 10 , 3 =>  10", args: args{N: 10, M: 3}, want: 10},
+		{name: " 11 , 3 =>  11", args: args{N: 11, M: 3}, want: 11},
+		{name: " 10 , 2 =>   5", args: args{N: 10, M: 2}, want: 5},
+		{name: " 10 , 4 =>   5", args: args{N: 10, M: 4}, want: 5},
+		{name: "999 , 3 => 333", args: args{N: 999, M: 3}, want: 333},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
