@@ -27,7 +27,7 @@ func Solution(A []int, K int, L int) int {
 	// It's tempting to go for channels and goroutine, but that's complicated, so let's brute force it
 
 	// Start grabbing pieces for Alice first
-	piecesForAlice := Divide(A, K)
+	piecesForAlice := divide(A, K)
 
 	// Now start seeing if we can find something for Bob
 
@@ -36,11 +36,11 @@ func Solution(A []int, K int, L int) int {
 	for _, pieceForAlice := range piecesForAlice {
 		var piecesForBob []partition
 		if len(pieceForAlice.head) >= L {
-			piecesForBob = append(piecesForBob, Divide(pieceForAlice.head, L)...)
+			piecesForBob = append(piecesForBob, divide(pieceForAlice.head, L)...)
 		}
 
 		if len(pieceForAlice.tail) >= L {
-			piecesForBob = append(piecesForBob, Divide(pieceForAlice.tail, L)...)
+			piecesForBob = append(piecesForBob, divide(pieceForAlice.tail, L)...)
 		}
 		// So now we have all pieces for Bob
 		for _, pieceForBob := range piecesForBob {
@@ -71,8 +71,8 @@ func sum(i []int) int {
 	return s
 }
 
-//Divide Finds subsets of size 	K in A, returns a partition
-func Divide(A []int, K int) []partition {
+//divide Finds subsets of size 	K in A, returns a partition
+func divide(A []int, K int) []partition {
 	var partitions []partition
 	if K > len(A) {
 		return partitions

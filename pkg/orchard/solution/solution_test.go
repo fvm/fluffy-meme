@@ -17,6 +17,7 @@ func TestSolution(t *testing.T) {
 		args args
 		want int
 	}{
+		{name: "Impossible", args: args{A: []int{}, K: 2, L: 2}, want: -1},
 		{name: "Impossible", args: args{A: []int{10, 9, 15}, K: 2, L: 2}, want: -1},
 		{name: "Exact", args: args{A: []int{10, 9, 15, 16}, K: 2, L: 2}, want: 50},
 		{name: "Exact", args: args{A: []int{10, 9, 15, 16}, K: 1, L: 3}, want: 50},
