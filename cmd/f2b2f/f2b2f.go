@@ -1,8 +1,8 @@
 package main
 
 import (
-	v1 "github.com/fvm/fluffy-meme/internal/pkg/f2b2f/solution"
-	v2 "github.com/fvm/fluffy-meme/internal/pkg/f2b2f/v2/solution"
+	v1 "github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f/solution"
+	v2 "github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f/v2/solution"
 )
 
 func main() {
