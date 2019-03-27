@@ -23,11 +23,22 @@ func Solution(A int) int {
 }
 
 func hustle(s []string) []string {
-	if len(s) <= 2 {
+	// Prevent going out of bounds
+	if len(s) == 0 {
 		return s
 	}
+	// Catch a negative number by including the minus
+	offset := 1
+	if s[0] == "-" {
+		offset++
+	}
+	// All combinations of 2 numbers or less will be returned in the same order
+	if len(s) <= offset+1 {
+		return s
+	}
+	// Otherwise return the first number followed by the first of the flipped rest (rinse and repeat)
+	return append(s[:offset], hustle(reverse(s[offset:]))...)
 
-	return append(s[:1], hustle(reverse(s[1:]))...)
 }
 
 // Taken from the slice tricks wiki page
