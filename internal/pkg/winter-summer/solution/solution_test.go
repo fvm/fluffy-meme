@@ -1,8 +1,9 @@
 package solution_test
 
 import (
-	"github.com/fvm/fluffy-meme/pkg/winter-summer/solution"
 	"testing"
+
+	"github.com/fvm/fluffy-meme/internal/pkg/winter-summer/solution"
 )
 
 func TestSolution(t *testing.T) {

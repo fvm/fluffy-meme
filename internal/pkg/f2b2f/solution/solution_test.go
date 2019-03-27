@@ -3,7 +3,7 @@ package solution_test
 import (
 	"testing"
 
-	"github.com/fvm/fluffy-meme/pkg/f2b2f/v2/solution"
+	"github.com/fvm/fluffy-meme/internal/pkg/f2b2f/solution"
 )
 
 func TestSolution(t *testing.T) {
@@ -23,7 +23,6 @@ func TestSolution(t *testing.T) {
 		{name: "", args: args{112}, want: 121},
 		{name: "", args: args{1123}, want: 1312},
 		{name: "", args: args{123456}, want: 162534},
-		{name: "", args: args{-123456}, want: -162534},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {

@@ -3,7 +3,7 @@ package solution_test
 import (
 	"testing"
 
-	"github.com/fvm/fluffy-meme/pkg/orchard/solution"
+	"github.com/fvm/fluffy-meme/internal/pkg/orchard/solution"
 )
 
 func TestSolution(t *testing.T) {

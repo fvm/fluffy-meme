@@ -1,8 +1,9 @@
 package solution_test
 
 import (
-	"github.com/fvm/fluffy-meme/pkg/missing-integer/solution"
 	"testing"
+
+	"github.com/fvm/fluffy-meme/internal/pkg/missing-integer/solution"
 )
 
 func TestSolution(t *testing.T) {

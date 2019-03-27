@@ -2,8 +2,9 @@ package solution_test
 
 import (
 	"fmt"
-	"github.com/fvm/fluffy-meme/pkg/chocolates-by-numbers/solution"
 	"testing"
+
+	"github.com/fvm/fluffy-meme/internal/pkg/chocolates-by-numbers/solution"
 )
 
 func TestSolution(t *testing.T) {

@@ -2,9 +2,10 @@ package solution_test
 
 import (
 	"fmt"
-	"github.com/fvm/fluffy-meme/pkg/fish/solution"
 	"math/rand"
 	"testing"
+
+	"github.com/fvm/fluffy-meme/internal/pkg/fish/solution"
 )
 
 func TestSolution(t *testing.T) {
