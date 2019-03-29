@@ -5,7 +5,10 @@ import (
 	"strings"
 )
 
-// Solution does a front to back to front
+// Solution solves the front-to-back-to-front "encryption" by recursively
+// * Splitting the slice into a head and tail
+// * Appending the result of calling itself on the flipped tail to the head
+// * Until the tail is at most 2 elements long
 func Solution(A int) int {
 
 	// Convert to string and split into 'chars'
