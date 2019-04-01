@@ -1,0 +1,726 @@
+{"Time":"2019-03-29T20:07:22.996846+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"goos: darwin\n"}
+{"Time":"2019-03-29T20:07:22.997257+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"goarch: amd64\n"}
+{"Time":"2019-03-29T20:07:22.997275+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"pkg: github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f\n"}
+{"Time":"2019-03-29T20:07:22.997299+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-3-8         \t"}
+{"Time":"2019-03-29T20:07:25.13192+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       101 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:25.132544+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-7-8         \t"}
+{"Time":"2019-03-29T20:07:27.251246+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:27.252102+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-6-8         \t"}
+{"Time":"2019-03-29T20:07:29.375069+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       101 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:29.375751+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2-8         \t"}
+{"Time":"2019-03-29T20:07:31.497504+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:31.498212+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-7#01-8      \t"}
+{"Time":"2019-03-29T20:07:33.609725+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:33.610177+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2#01-8      \t"}
+{"Time":"2019-03-29T20:07:35.73526+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:35.735753+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2#02-8      \t"}
+{"Time":"2019-03-29T20:07:37.856567+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:37.857093+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2#03-8      \t"}
+{"Time":"2019-03-29T20:07:39.977061+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:39.977556+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-4-8         \t"}
+{"Time":"2019-03-29T20:07:42.127648+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       102 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:42.128142+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-8-8         \t"}
+{"Time":"2019-03-29T20:07:44.334663+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       104 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:44.335418+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-85-8        \t"}
+{"Time":"2019-03-29T20:07:45.934976+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       265 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:45.935729+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-52-8        \t"}
+{"Time":"2019-03-29T20:07:47.546305+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       268 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:47.546989+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-64-8        \t"}
+{"Time":"2019-03-29T20:07:49.150211+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       266 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:49.150683+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-71-8        \t"}
+{"Time":"2019-03-29T20:07:50.74615+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       265 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:50.746697+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-70-8        \t"}
+{"Time":"2019-03-29T20:07:52.864544+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:52.865187+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-40-8        \t"}
+{"Time":"2019-03-29T20:07:54.479401+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       268 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:54.480162+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-29-8        \t"}
+{"Time":"2019-03-29T20:07:56.593868+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:07:56.594756+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-95-8        \t"}
+{"Time":"2019-03-29T20:07:58.193854+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       265 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:58.194651+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-27-8        \t"}
+{"Time":"2019-03-29T20:07:59.80246+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       267 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:07:59.803383+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-99-8        \t"}
+{"Time":"2019-03-29T20:08:01.925725+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t       100 ns/op\t      32 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:08:01.926647+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-863-8       \t"}
+{"Time":"2019-03-29T20:08:03.659538+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       432 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:03.659991+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-660-8       \t"}
+{"Time":"2019-03-29T20:08:05.26267+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       265 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:05.26354+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-771-8       \t"}
+{"Time":"2019-03-29T20:08:06.865266+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       266 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:06.865909+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-207-8       \t"}
+{"Time":"2019-03-29T20:08:08.589103+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       428 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:08.589608+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-490-8       \t"}
+{"Time":"2019-03-29T20:08:10.320459+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       430 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:10.320902+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-593-8       \t"}
+{"Time":"2019-03-29T20:08:12.047712+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       428 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:12.048219+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-169-8       \t"}
+{"Time":"2019-03-29T20:08:13.662164+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       269 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:13.662973+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-328-8       \t"}
+{"Time":"2019-03-29T20:08:15.275497+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       267 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:15.27616+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-628-8       \t"}
+{"Time":"2019-03-29T20:08:17.011391+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       429 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:17.012073+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-226-8       \t"}
+{"Time":"2019-03-29T20:08:18.617569+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       267 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:18.618685+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-5594-8      \t"}
+{"Time":"2019-03-29T20:08:20.482852+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       463 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:20.483738+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-4031-8      \t"}
+{"Time":"2019-03-29T20:08:22.2233+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       433 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:22.223914+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-121-8       \t"}
+{"Time":"2019-03-29T20:08:23.841514+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       269 ns/op\t      82 B/op\t       4 allocs/op\n"}
+{"Time":"2019-03-29T20:08:23.842206+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2645-8      \t"}
+{"Time":"2019-03-29T20:08:25.707281+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       465 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:25.708075+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2317-8      \t"}
+{"Time":"2019-03-29T20:08:27.570396+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       464 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:27.571263+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-1909-8      \t"}
+{"Time":"2019-03-29T20:08:29.300025+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       429 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:29.30053+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2352-8      \t"}
+{"Time":"2019-03-29T20:08:31.167356+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       464 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:31.167941+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-3625-8      \t"}
+{"Time":"2019-03-29T20:08:33.027212+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       463 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:33.027806+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2437-8      \t"}
+{"Time":"2019-03-29T20:08:34.902682+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       468 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:34.903551+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-4582-8      \t"}
+{"Time":"2019-03-29T20:08:36.632948+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       431 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:36.633629+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-92112-8     \t"}
+{"Time":"2019-03-29T20:08:38.500005+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       617 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:38.500493+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-49030-8     \t"}
+{"Time":"2019-03-29T20:08:40.360977+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       615 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:40.361458+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-76551-8     \t"}
+{"Time":"2019-03-29T20:08:42.217689+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       614 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:42.218317+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-32055-8     \t"}
+{"Time":"2019-03-29T20:08:44.091257+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       467 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:44.091949+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-59471-8     \t"}
+{"Time":"2019-03-29T20:08:45.961863+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       621 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:45.962279+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-92884-8     \t"}
+{"Time":"2019-03-29T20:08:47.829373+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       617 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:47.830121+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-19657-8     \t"}
+{"Time":"2019-03-29T20:08:49.692726+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       620 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:49.693314+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-8380-8      \t"}
+{"Time":"2019-03-29T20:08:51.556731+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       465 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:08:51.557612+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-95903-8     \t"}
+{"Time":"2019-03-29T20:08:53.419804+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       616 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:53.420329+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-51216-8     \t"}
+{"Time":"2019-03-29T20:08:55.293095+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       616 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:55.293653+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-477939-8    \t"}
+{"Time":"2019-03-29T20:08:57.236216+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       645 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:57.237039+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-370343-8    \t"}
+{"Time":"2019-03-29T20:08:59.175401+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       644 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:08:59.17615+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-120007-8    \t"}
+{"Time":"2019-03-29T20:09:01.040739+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       619 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:01.041293+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-628873-8    \t"}
+{"Time":"2019-03-29T20:09:02.977504+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       643 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:02.978088+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-738538-8    \t"}
+{"Time":"2019-03-29T20:09:04.932961+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       645 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:04.933575+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-634860-8    \t"}
+{"Time":"2019-03-29T20:09:06.885233+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       651 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:06.885994+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-16300-8     \t"}
+{"Time":"2019-03-29T20:09:08.748304+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       463 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:09:08.749224+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-529726-8    \t"}
+{"Time":"2019-03-29T20:09:10.625737+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       620 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:10.626251+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-159427-8    \t"}
+{"Time":"2019-03-29T20:09:12.486637+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       618 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:12.487292+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-160673-8    \t"}
+{"Time":"2019-03-29T20:09:14.449276+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       652 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:14.45007+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-383440-8    \t"}
+{"Time":"2019-03-29T20:09:16.395663+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       644 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:16.396299+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-6453420-8   \t"}
+{"Time":"2019-03-29T20:09:18.500776+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       696 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:18.501378+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-6845987-8   \t"}
+{"Time":"2019-03-29T20:09:20.611223+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       697 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:20.611766+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-5127775-8   \t"}
+{"Time":"2019-03-29T20:09:22.709385+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       695 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:22.70998+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-3588565-8   \t"}
+{"Time":"2019-03-29T20:09:24.822184+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       704 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:24.823052+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-7485323-8   \t"}
+{"Time":"2019-03-29T20:09:26.92018+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       696 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:26.9206+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-151968-8    \t"}
+{"Time":"2019-03-29T20:09:28.781625+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       616 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:28.782261+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-8583518-8   \t"}
+{"Time":"2019-03-29T20:09:30.887818+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       698 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:30.888366+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-1947405-8   \t"}
+{"Time":"2019-03-29T20:09:32.832538+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       645 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:32.833247+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-1633744-8   \t"}
+{"Time":"2019-03-29T20:09:34.787291+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       649 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:34.788017+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-18135138-8  \t"}
+{"Time":"2019-03-29T20:09:36.97439+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       727 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:36.975834+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-72162625-8  \t"}
+{"Time":"2019-03-29T20:09:39.157693+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       724 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:39.158298+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-80858797-8  \t"}
+{"Time":"2019-03-29T20:09:41.345803+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       725 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:41.34656+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-70751424-8  \t"}
+{"Time":"2019-03-29T20:09:43.576428+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       739 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:43.577453+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-30472295-8  \t"}
+{"Time":"2019-03-29T20:09:45.780652+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       730 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:45.781438+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-3659175-8   \t"}
+{"Time":"2019-03-29T20:09:47.88213+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       698 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:47.882622+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-15512205-8  \t"}
+{"Time":"2019-03-29T20:09:49.99281+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       699 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:49.993274+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-89270239-8  \t"}
+{"Time":"2019-03-29T20:09:52.179242+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       726 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:52.180026+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-62926220-8  \t"}
+{"Time":"2019-03-29T20:09:54.375056+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       729 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:54.37577+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-11693217-8  \t"}
+{"Time":"2019-03-29T20:09:56.47678+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       697 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:56.477228+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-108154441-8 \t"}
+{"Time":"2019-03-29T20:09:58.418102+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       642 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:09:58.41865+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-55146164-8  \t"}
+{"Time":"2019-03-29T20:10:00.610481+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       726 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:10:00.611266+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-856206322-8 \t"}
+{"Time":"2019-03-29T20:10:03.404333+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       929 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:03.405093+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-541241849-8 \t"}
+{"Time":"2019-03-29T20:10:06.212058+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       927 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:06.212725+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-256217349-8 \t"}
+{"Time":"2019-03-29T20:10:08.399918+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       722 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:10:08.400687+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-726955649-8 \t"}
+{"Time":"2019-03-29T20:10:11.21138+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       928 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:11.212422+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-331099626-8 \t"}
+{"Time":"2019-03-29T20:10:14.033546+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       940 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:14.034128+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-769645536-8 \t"}
+{"Time":"2019-03-29T20:10:16.842907+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       935 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:16.843661+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-677105421-8 \t"}
+{"Time":"2019-03-29T20:10:19.652808+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       933 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:19.653728+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-398815836-8 \t"}
+{"Time":"2019-03-29T20:10:22.450221+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       930 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:22.450766+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-8866048258-8         \t"}
+{"Time":"2019-03-29T20:10:25.364203+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       966 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:25.36492+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-1626381463-8         \t"}
+{"Time":"2019-03-29T20:10:28.26464+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       963 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:28.265453+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2800977979-8         \t"}
+{"Time":"2019-03-29T20:10:31.076203+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       935 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:31.076831+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-7866989054-8         \t"}
+{"Time":"2019-03-29T20:10:33.883479+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       936 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:33.883976+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-8237959171-8         \t"}
+{"Time":"2019-03-29T20:10:36.78625+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       963 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:36.786761+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2052707385-8         \t"}
+{"Time":"2019-03-29T20:10:39.591086+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       928 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:39.591722+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-5519294922-8         \t"}
+{"Time":"2019-03-29T20:10:42.495219+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       966 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:42.495796+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-1269560094-8         \t"}
+{"Time":"2019-03-29T20:10:45.306349+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       930 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:45.306991+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-5184753634-8         \t"}
+{"Time":"2019-03-29T20:10:48.217393+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       965 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:48.217803+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-6382448673-8         \t"}
+{"Time":"2019-03-29T20:10:51.140887+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       973 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:51.141424+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-43808076327-8        \t"}
+{"Time":"2019-03-29T20:10:52.170878+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1016 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:52.1716+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-94340791561-8        \t"}
+{"Time":"2019-03-29T20:10:53.196847+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1013 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:53.197465+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-94696891343-8        \t"}
+{"Time":"2019-03-29T20:10:54.240368+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1031 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:54.241238+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-42090759117-8        \t"}
+{"Time":"2019-03-29T20:10:57.149118+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       964 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:57.149974+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-53538265887-8        \t"}
+{"Time":"2019-03-29T20:10:58.173779+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1012 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:10:58.174379+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-2854945462-8         \t"}
+{"Time":"2019-03-29T20:11:01.096253+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       971 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:01.096825+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-45904904790-8        \t"}
+{"Time":"2019-03-29T20:11:02.117548+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1009 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:02.118214+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-52249415187-8        \t"}
+{"Time":"2019-03-29T20:11:05.033861+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       969 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:05.034618+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-96124614541-8        \t"}
+{"Time":"2019-03-29T20:11:06.054924+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1009 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:06.055728+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-68630561103-8        \t"}
+{"Time":"2019-03-29T20:11:07.086229+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1018 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:07.086954+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-917599113013-8       \t"}
+{"Time":"2019-03-29T20:11:08.14237+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1043 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:08.142844+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-733326373909-8       \t"}
+{"Time":"2019-03-29T20:11:09.172611+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1018 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:09.173359+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-665987619162-8       \t"}
+{"Time":"2019-03-29T20:11:10.226988+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1041 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:10.22784+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-197761449148-8       \t"}
+{"Time":"2019-03-29T20:11:11.254884+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1015 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:11.255684+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-458335948769-8       \t"}
+{"Time":"2019-03-29T20:11:12.306827+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1039 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:12.30736+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-124228206813-8       \t"}
+{"Time":"2019-03-29T20:11:13.339366+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1018 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:13.340208+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-613333684590-8       \t"}
+{"Time":"2019-03-29T20:11:14.410215+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1057 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:14.410904+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-826734099230-8       \t"}
+{"Time":"2019-03-29T20:11:15.464464+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1041 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:15.465263+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-607547682485-8       \t"}
+{"Time":"2019-03-29T20:11:16.491213+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1014 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:16.491971+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v1-bench-743253816245-8       \t"}
+{"Time":"2019-03-29T20:11:17.548+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 1000000\t      1044 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:11:17.549079+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-3-8                  \t"}
+{"Time":"2019-03-29T20:11:18.938448+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.1 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:18.939438+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-7-8                  \t"}
+{"Time":"2019-03-29T20:11:20.34147+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.6 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:20.342089+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-6-8                  \t"}
+{"Time":"2019-03-29T20:11:21.751612+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        67.0 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:21.752213+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2-8                  \t"}
+{"Time":"2019-03-29T20:11:23.144555+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.2 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:23.145149+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-7#01-8               \t"}
+{"Time":"2019-03-29T20:11:24.544121+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.6 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:24.544759+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2#01-8               \t"}
+{"Time":"2019-03-29T20:11:25.936687+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.2 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:25.937656+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2#02-8               \t"}
+{"Time":"2019-03-29T20:11:27.331954+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.3 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:27.332846+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2#03-8               \t"}
+{"Time":"2019-03-29T20:11:28.73012+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.5 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:28.730957+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-4-8                  \t"}
+{"Time":"2019-03-29T20:11:30.12328+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.2 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:30.123874+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-8-8                  \t"}
+{"Time":"2019-03-29T20:11:31.526767+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.8 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:31.527495+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-85-8                 \t"}
+{"Time":"2019-03-29T20:11:33.169793+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       148 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:33.170593+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-52-8                 \t"}
+{"Time":"2019-03-29T20:11:34.841253+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       151 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:34.842291+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-64-8                 \t"}
+{"Time":"2019-03-29T20:11:36.481887+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       148 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:36.482796+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-71-8                 \t"}
+{"Time":"2019-03-29T20:11:38.132746+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:38.133468+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-70-8                 \t"}
+{"Time":"2019-03-29T20:11:39.537576+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.8 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:39.53821+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-40-8                 \t"}
+{"Time":"2019-03-29T20:11:41.179955+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       148 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:41.180876+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-29-8                 \t"}
+{"Time":"2019-03-29T20:11:42.569076+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.0 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:42.569658+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-95-8                 \t"}
+{"Time":"2019-03-29T20:11:44.221393+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:44.222161+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-27-8                 \t"}
+{"Time":"2019-03-29T20:11:45.869849+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:45.870573+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-99-8                 \t"}
+{"Time":"2019-03-29T20:11:47.270705+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        66.4 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:11:47.271553+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-863-8                \t"}
+{"Time":"2019-03-29T20:11:49.863492+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       235 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:11:49.864243+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-660-8                \t"}
+{"Time":"2019-03-29T20:11:51.508456+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:51.509302+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-771-8                \t"}
+{"Time":"2019-03-29T20:11:53.186017+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       151 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:11:53.186711+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-207-8                \t"}
+{"Time":"2019-03-29T20:11:54.631525+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       238 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:11:54.632612+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-490-8                \t"}
+{"Time":"2019-03-29T20:11:56.070715+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       237 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:11:56.071595+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-593-8                \t"}
+{"Time":"2019-03-29T20:11:58.6597+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       234 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:11:58.660327+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-169-8                \t"}
+{"Time":"2019-03-29T20:12:00.308496+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:12:00.309382+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-328-8                \t"}
+{"Time":"2019-03-29T20:12:01.947628+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       148 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:12:01.948286+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-628-8                \t"}
+{"Time":"2019-03-29T20:12:04.542665+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       235 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:04.543625+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-226-8                \t"}
+{"Time":"2019-03-29T20:12:06.188412+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:12:06.189184+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-5594-8               \t"}
+{"Time":"2019-03-29T20:12:07.844843+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       275 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:07.845552+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-4031-8               \t"}
+{"Time":"2019-03-29T20:12:10.428885+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       234 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:10.429553+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-121-8                \t"}
+{"Time":"2019-03-29T20:12:12.076061+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       149 ns/op\t      34 B/op\t       2 allocs/op\n"}
+{"Time":"2019-03-29T20:12:12.076811+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2645-8               \t"}
+{"Time":"2019-03-29T20:12:13.732077+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       274 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:13.733089+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2317-8               \t"}
+{"Time":"2019-03-29T20:12:15.374465+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       272 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:15.375238+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-1909-8               \t"}
+{"Time":"2019-03-29T20:12:17.960514+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       234 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:17.961457+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2352-8               \t"}
+{"Time":"2019-03-29T20:12:19.610352+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       274 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:19.611321+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-3625-8               \t"}
+{"Time":"2019-03-29T20:12:21.378296+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       291 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:21.378999+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2437-8               \t"}
+{"Time":"2019-03-29T20:12:23.019892+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       272 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:23.020927+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-4582-8               \t"}
+{"Time":"2019-03-29T20:12:25.613574+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"10000000\t       235 ns/op\t      54 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:25.614473+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-92112-8              \t"}
+{"Time":"2019-03-29T20:12:27.603274+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       330 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:27.604152+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-49030-8              \t"}
+{"Time":"2019-03-29T20:12:29.606084+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       333 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:29.606821+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-76551-8              \t"}
+{"Time":"2019-03-29T20:12:31.613851+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       333 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:31.614584+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-32055-8              \t"}
+{"Time":"2019-03-29T20:12:33.288106+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       276 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:33.289082+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-59471-8              \t"}
+{"Time":"2019-03-29T20:12:35.307101+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       333 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:35.307921+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-92884-8              \t"}
+{"Time":"2019-03-29T20:12:37.336264+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       337 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:37.337087+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-19657-8              \t"}
+{"Time":"2019-03-29T20:12:39.355789+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       334 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:39.356776+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-8380-8               \t"}
+{"Time":"2019-03-29T20:12:41.033662+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       278 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:41.034691+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-95903-8              \t"}
+{"Time":"2019-03-29T20:12:43.038329+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       333 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:43.039224+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-51216-8              \t"}
+{"Time":"2019-03-29T20:12:45.083933+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       337 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:45.084863+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-477939-8             \t"}
+{"Time":"2019-03-29T20:12:47.367247+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       379 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:47.368093+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-370343-8             \t"}
+{"Time":"2019-03-29T20:12:49.596465+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       370 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:49.597147+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-120007-8             \t"}
+{"Time":"2019-03-29T20:12:51.606808+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       334 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:51.607842+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-628873-8             \t"}
+{"Time":"2019-03-29T20:12:53.861481+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       375 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:53.861903+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-738538-8             \t"}
+{"Time":"2019-03-29T20:12:56.096076+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       370 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:56.096538+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-634860-8             \t"}
+{"Time":"2019-03-29T20:12:58.341607+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       372 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:12:58.34214+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-16300-8              \t"}
+{"Time":"2019-03-29T20:13:00.021089+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       279 ns/op\t      72 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:00.022362+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-529726-8             \t"}
+{"Time":"2019-03-29T20:13:02.012587+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       331 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:02.013526+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-159427-8             \t"}
+{"Time":"2019-03-29T20:13:04.018104+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       333 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:04.019+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-160673-8             \t"}
+{"Time":"2019-03-29T20:13:06.247145+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       370 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:06.248271+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-383440-8             \t"}
+{"Time":"2019-03-29T20:13:08.492954+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       372 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:08.493692+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-6453420-8            \t"}
+{"Time":"2019-03-29T20:13:10.145683+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       412 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:10.146128+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-6845987-8            \t"}
+{"Time":"2019-03-29T20:13:11.820798+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       419 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:11.821422+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-5127775-8            \t"}
+{"Time":"2019-03-29T20:13:13.487502+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       415 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:13.488218+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-3588565-8            \t"}
+{"Time":"2019-03-29T20:13:15.147641+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       412 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:15.148153+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-7485323-8            \t"}
+{"Time":"2019-03-29T20:13:16.809608+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       414 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:16.810049+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-151968-8             \t"}
+{"Time":"2019-03-29T20:13:18.804153+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       331 ns/op\t      90 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:18.805037+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-8583518-8            \t"}
+{"Time":"2019-03-29T20:13:20.468166+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       415 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:20.468676+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-1947405-8            \t"}
+{"Time":"2019-03-29T20:13:22.728019+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       375 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:22.728445+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-1633744-8            \t"}
+{"Time":"2019-03-29T20:13:24.972803+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       374 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:24.973235+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-18135138-8           \t"}
+{"Time":"2019-03-29T20:13:26.771384+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       449 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:26.772166+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-72162625-8           \t"}
+{"Time":"2019-03-29T20:13:28.557296+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       445 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:28.55783+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-80858797-8           \t"}
+{"Time":"2019-03-29T20:13:30.364605+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       451 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:30.365112+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-70751424-8           \t"}
+{"Time":"2019-03-29T20:13:32.13102+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       438 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:32.131753+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-30472295-8           \t"}
+{"Time":"2019-03-29T20:13:33.949141+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       452 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:33.949668+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-3659175-8            \t"}
+{"Time":"2019-03-29T20:13:35.612004+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       413 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:35.612644+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-15512205-8           \t"}
+{"Time":"2019-03-29T20:13:37.277496+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       416 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:37.278133+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-89270239-8           \t"}
+{"Time":"2019-03-29T20:13:39.068566+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       446 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:39.069269+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-62926220-8           \t"}
+{"Time":"2019-03-29T20:13:40.880083+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       451 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:40.88065+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-11693217-8           \t"}
+{"Time":"2019-03-29T20:13:42.574626+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       422 ns/op\t     128 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:42.57527+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-108154441-8          \t"}
+{"Time":"2019-03-29T20:13:44.828189+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 5000000\t       374 ns/op\t     112 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:44.828683+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-55146164-8           \t"}
+{"Time":"2019-03-29T20:13:46.631016+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       449 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:46.631731+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-856206322-8          \t"}
+{"Time":"2019-03-29T20:13:48.711275+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       518 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:48.711793+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-541241849-8          \t"}
+{"Time":"2019-03-29T20:13:50.790879+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       517 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:50.791474+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-256217349-8          \t"}
+{"Time":"2019-03-29T20:13:52.589392+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       449 ns/op\t     144 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:52.590284+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-726955649-8          \t"}
+{"Time":"2019-03-29T20:13:54.657437+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       516 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:54.658+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-331099626-8          \t"}
+{"Time":"2019-03-29T20:13:56.722256+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       514 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:56.723086+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-769645536-8          \t"}
+{"Time":"2019-03-29T20:13:58.790078+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       516 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:13:58.790689+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-677105421-8          \t"}
+{"Time":"2019-03-29T20:14:00.879547+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       522 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:00.880656+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-398815836-8          \t"}
+{"Time":"2019-03-29T20:14:02.922568+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       507 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:02.923825+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-8866048258-8         \t"}
+{"Time":"2019-03-29T20:14:05.138058+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       548 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:05.139053+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-1626381463-8         \t"}
+{"Time":"2019-03-29T20:14:07.373088+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       558 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:07.37441+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2800977979-8         \t"}
+{"Time":"2019-03-29T20:14:09.462943+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       519 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:09.463856+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-7866989054-8         \t"}
+{"Time":"2019-03-29T20:14:11.519708+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       511 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:11.520193+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-8237959171-8         \t"}
+{"Time":"2019-03-29T20:14:13.746476+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       556 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:13.747527+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2052707385-8         \t"}
+{"Time":"2019-03-29T20:14:15.826883+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       518 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:15.827504+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-5519294922-8         \t"}
+{"Time":"2019-03-29T20:14:18.057801+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       555 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:18.058281+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-1269560094-8         \t"}
+{"Time":"2019-03-29T20:14:20.145984+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       519 ns/op\t     176 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:20.146568+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-5184753634-8         \t"}
+{"Time":"2019-03-29T20:14:22.372399+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       555 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:22.372824+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-6382448673-8         \t"}
+{"Time":"2019-03-29T20:14:24.621571+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       562 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:24.622095+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-43808076327-8        \t"}
+{"Time":"2019-03-29T20:14:26.465992+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       612 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:26.467186+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-94340791561-8        \t"}
+{"Time":"2019-03-29T20:14:28.331012+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       620 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:28.331422+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-94696891343-8        \t"}
+{"Time":"2019-03-29T20:14:30.181446+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       614 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:30.182308+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-42090759117-8        \t"}
+{"Time":"2019-03-29T20:14:32.425977+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       559 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:32.42723+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-53538265887-8        \t"}
+{"Time":"2019-03-29T20:14:34.295907+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       621 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:34.296747+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-2854945462-8         \t"}
+{"Time":"2019-03-29T20:14:36.543537+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       560 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:36.544975+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-45904904790-8        \t"}
+{"Time":"2019-03-29T20:14:38.405739+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       606 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:38.406509+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-52249415187-8        \t"}
+{"Time":"2019-03-29T20:14:40.627015+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       553 ns/op\t     192 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:40.627454+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-96124614541-8        \t"}
+{"Time":"2019-03-29T20:14:42.45779+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       609 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:42.458218+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-68630561103-8        \t"}
+{"Time":"2019-03-29T20:14:44.332666+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       623 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:44.333457+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-917599113013-8       \t"}
+{"Time":"2019-03-29T20:14:46.322985+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       665 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:46.323596+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-733326373909-8       \t"}
+{"Time":"2019-03-29T20:14:48.147336+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       603 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:48.148127+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-665987619162-8       \t"}
+{"Time":"2019-03-29T20:14:50.083856+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       643 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:50.084421+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-197761449148-8       \t"}
+{"Time":"2019-03-29T20:14:51.951978+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       624 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:51.953064+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-458335948769-8       \t"}
+{"Time":"2019-03-29T20:14:53.930548+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       658 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:53.931355+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-124228206813-8       \t"}
+{"Time":"2019-03-29T20:14:55.768534+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       609 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:55.769238+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-613333684590-8       \t"}
+{"Time":"2019-03-29T20:14:57.716033+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       646 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:57.716452+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-826734099230-8       \t"}
+{"Time":"2019-03-29T20:14:59.671727+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       651 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:14:59.672359+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-607547682485-8       \t"}
+{"Time":"2019-03-29T20:15:01.513247+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       612 ns/op\t     208 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:15:01.514245+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v2-bench-743253816245-8       \t"}
+{"Time":"2019-03-29T20:15:03.500724+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       658 ns/op\t     224 B/op\t       3 allocs/op\n"}
+{"Time":"2019-03-29T20:15:03.501496+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-3-8                  \t"}
+{"Time":"2019-03-29T20:15:05.054424+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.1 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:05.054852+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-7-8                  \t"}
+{"Time":"2019-03-29T20:15:06.602806+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        49.9 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:06.6038+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-6-8                  \t"}
+{"Time":"2019-03-29T20:15:08.162983+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.3 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:08.163714+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2-8                  \t"}
+{"Time":"2019-03-29T20:15:09.728494+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.4 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:09.729389+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-7#01-8               \t"}
+{"Time":"2019-03-29T20:15:11.293433+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.3 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:11.294138+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2#01-8               \t"}
+{"Time":"2019-03-29T20:15:12.841574+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        49.9 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:12.842542+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2#02-8               \t"}
+{"Time":"2019-03-29T20:15:14.401304+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.2 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:14.40249+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2#03-8               \t"}
+{"Time":"2019-03-29T20:15:15.952113+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        49.9 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:15.953219+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-4-8                  \t"}
+{"Time":"2019-03-29T20:15:17.507014+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.1 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:17.507692+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-8-8                  \t"}
+{"Time":"2019-03-29T20:15:19.071735+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.4 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:19.072437+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-85-8                 \t"}
+{"Time":"2019-03-29T20:15:20.944751+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        89.0 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:20.945537+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-52-8                 \t"}
+{"Time":"2019-03-29T20:15:22.802143+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        88.3 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:22.802938+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-64-8                 \t"}
+{"Time":"2019-03-29T20:15:24.656559+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        88.2 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:24.657251+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-71-8                 \t"}
+{"Time":"2019-03-29T20:15:26.507395+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.9 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:26.508234+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-70-8                 \t"}
+{"Time":"2019-03-29T20:15:28.0624+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        50.1 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:28.063895+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-40-8                 \t"}
+{"Time":"2019-03-29T20:15:29.90804+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.7 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:29.908733+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-29-8                 \t"}
+{"Time":"2019-03-29T20:15:31.44334+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        49.4 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:31.443754+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-95-8                 \t"}
+{"Time":"2019-03-29T20:15:33.294025+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        88.0 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:33.294633+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-27-8                 \t"}
+{"Time":"2019-03-29T20:15:35.128652+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.2 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:35.129673+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-99-8                 \t"}
+{"Time":"2019-03-29T20:15:36.665853+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"30000000\t        49.5 ns/op\t      16 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:36.666587+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-863-8                \t"}
+{"Time":"2019-03-29T20:15:38.417687+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       433 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:38.418495+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-660-8                \t"}
+{"Time":"2019-03-29T20:15:40.262886+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.7 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:40.263696+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-771-8                \t"}
+{"Time":"2019-03-29T20:15:42.120711+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        88.4 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:42.121428+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-207-8                \t"}
+{"Time":"2019-03-29T20:15:43.858987+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       433 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:43.859494+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-490-8                \t"}
+{"Time":"2019-03-29T20:15:45.596311+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       432 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:45.597001+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-593-8                \t"}
+{"Time":"2019-03-29T20:15:47.337576+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       432 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:47.338202+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-169-8                \t"}
+{"Time":"2019-03-29T20:15:49.170794+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.2 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:49.171453+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-328-8                \t"}
+{"Time":"2019-03-29T20:15:51.005242+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.2 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:51.005899+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-628-8                \t"}
+{"Time":"2019-03-29T20:15:52.751799+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       432 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:52.752388+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-226-8                \t"}
+{"Time":"2019-03-29T20:15:54.609078+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        88.4 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:15:54.609828+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-5594-8               \t"}
+{"Time":"2019-03-29T20:15:56.442255+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       455 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:56.443133+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-4031-8               \t"}
+{"Time":"2019-03-29T20:15:58.198867+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       438 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:15:58.199468+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-121-8                \t"}
+{"Time":"2019-03-29T20:16:00.045977+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"20000000\t        87.8 ns/op\t      32 B/op\t       1 allocs/op\n"}
+{"Time":"2019-03-29T20:16:00.0465+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2645-8               \t"}
+{"Time":"2019-03-29T20:16:01.905622+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       464 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:01.906566+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2317-8               \t"}
+{"Time":"2019-03-29T20:16:03.777149+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       467 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:03.778029+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-1909-8               \t"}
+{"Time":"2019-03-29T20:16:05.543798+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       439 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:05.544582+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2352-8               \t"}
+{"Time":"2019-03-29T20:16:07.442876+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       474 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:07.443342+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-3625-8               \t"}
+{"Time":"2019-03-29T20:16:09.297151+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       463 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:09.297796+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2437-8               \t"}
+{"Time":"2019-03-29T20:16:11.157504+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       464 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:11.158163+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-4582-8               \t"}
+{"Time":"2019-03-29T20:16:12.925291+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       440 ns/op\t     166 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:12.92584+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-92112-8              \t"}
+{"Time":"2019-03-29T20:16:14.796403+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       618 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:14.796899+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-49030-8              \t"}
+{"Time":"2019-03-29T20:16:16.656418+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       617 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:16.656919+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-76551-8              \t"}
+{"Time":"2019-03-29T20:16:18.498182+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       611 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:18.498725+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-32055-8              \t"}
+{"Time":"2019-03-29T20:16:20.353039+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       461 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:20.353708+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-59471-8              \t"}
+{"Time":"2019-03-29T20:16:22.188498+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       613 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:22.188965+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-92884-8              \t"}
+{"Time":"2019-03-29T20:16:24.041032+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       615 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:24.041514+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-19657-8              \t"}
+{"Time":"2019-03-29T20:16:25.869351+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       605 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:25.870264+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-8380-8               \t"}
+{"Time":"2019-03-29T20:16:27.701992+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       454 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:27.702728+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-95903-8              \t"}
+{"Time":"2019-03-29T20:16:29.521446+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       604 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:29.521958+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-51216-8              \t"}
+{"Time":"2019-03-29T20:16:31.386633+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       624 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:31.387055+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-477939-8             \t"}
+{"Time":"2019-03-29T20:16:33.321726+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       643 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:33.322679+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-370343-8             \t"}
+{"Time":"2019-03-29T20:16:35.212548+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       627 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:35.213381+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-120007-8             \t"}
+{"Time":"2019-03-29T20:16:37.039449+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       606 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:37.039942+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-628873-8             \t"}
+{"Time":"2019-03-29T20:16:38.910242+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       622 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:38.910827+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-738538-8             \t"}
+{"Time":"2019-03-29T20:16:40.820994+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       636 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:40.821496+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-634860-8             \t"}
+{"Time":"2019-03-29T20:16:42.726963+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       630 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:42.727432+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-16300-8              \t"}
+{"Time":"2019-03-29T20:16:44.598199+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 3000000\t       462 ns/op\t     184 B/op\t       6 allocs/op\n"}
+{"Time":"2019-03-29T20:16:44.598695+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-529726-8             \t"}
+{"Time":"2019-03-29T20:16:46.450741+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       616 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:46.451652+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-159427-8             \t"}
+{"Time":"2019-03-29T20:16:48.301857+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       613 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:48.302386+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-160673-8             \t"}
+{"Time":"2019-03-29T20:16:50.219698+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       637 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:50.220432+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-383440-8             \t"}
+{"Time":"2019-03-29T20:16:52.144984+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       642 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:52.145904+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-6453420-8            \t"}
+{"Time":"2019-03-29T20:16:54.216901+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       687 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:54.217382+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-6845987-8            \t"}
+{"Time":"2019-03-29T20:16:56.229907+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       666 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:56.230386+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-5127775-8            \t"}
+{"Time":"2019-03-29T20:16:58.264819+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       674 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:16:58.265414+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-3588565-8            \t"}
+{"Time":"2019-03-29T20:17:00.297848+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       674 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:00.298412+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-7485323-8            \t"}
+{"Time":"2019-03-29T20:17:02.306861+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       663 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:02.307486+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-151968-8             \t"}
+{"Time":"2019-03-29T20:17:04.155535+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       613 ns/op\t     330 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:04.155964+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-8583518-8            \t"}
+{"Time":"2019-03-29T20:17:06.168104+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       668 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:06.168587+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-1947405-8            \t"}
+{"Time":"2019-03-29T20:17:08.051112+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       622 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:08.05215+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-1633744-8            \t"}
+{"Time":"2019-03-29T20:17:09.932037+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       630 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:09.932691+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-18135138-8           \t"}
+{"Time":"2019-03-29T20:17:11.973893+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       675 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:11.97456+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-72162625-8           \t"}
+{"Time":"2019-03-29T20:17:14.02444+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       682 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:14.02491+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-80858797-8           \t"}
+{"Time":"2019-03-29T20:17:16.066564+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       679 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:16.067265+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-70751424-8           \t"}
+{"Time":"2019-03-29T20:17:18.132641+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       685 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:18.133432+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-30472295-8           \t"}
+{"Time":"2019-03-29T20:17:20.195597+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       684 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:20.196028+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-3659175-8            \t"}
+{"Time":"2019-03-29T20:17:22.249846+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       664 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:22.250556+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-15512205-8           \t"}
+{"Time":"2019-03-29T20:17:24.252178+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       663 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:24.252713+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-89270239-8           \t"}
+{"Time":"2019-03-29T20:17:26.303809+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       683 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:26.304326+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-62926220-8           \t"}
+{"Time":"2019-03-29T20:17:28.356677+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       680 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:28.357643+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-11693217-8           \t"}
+{"Time":"2019-03-29T20:17:30.370689+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       673 ns/op\t     368 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:30.371313+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-108154441-8          \t"}
+{"Time":"2019-03-29T20:17:32.262739+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       626 ns/op\t     352 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:32.263245+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-55146164-8           \t"}
+{"Time":"2019-03-29T20:17:34.343544+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       691 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:34.344296+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-856206322-8          \t"}
+{"Time":"2019-03-29T20:17:37.038022+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       901 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:37.038709+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-541241849-8          \t"}
+{"Time":"2019-03-29T20:17:39.692321+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       880 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:39.692822+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-256217349-8          \t"}
+{"Time":"2019-03-29T20:17:41.757547+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       687 ns/op\t     384 B/op\t       7 allocs/op\n"}
+{"Time":"2019-03-29T20:17:41.758375+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-726955649-8          \t"}
+{"Time":"2019-03-29T20:17:44.410363+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       877 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:44.411484+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-331099626-8          \t"}
+{"Time":"2019-03-29T20:17:47.077875+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       891 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:47.078634+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-769645536-8          \t"}
+{"Time":"2019-03-29T20:17:49.722672+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       874 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:49.723504+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-677105421-8          \t"}
+{"Time":"2019-03-29T20:17:52.402452+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       896 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:52.403381+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-398815836-8          \t"}
+{"Time":"2019-03-29T20:17:55.062771+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       882 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:55.063881+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-8866048258-8         \t"}
+{"Time":"2019-03-29T20:17:57.796278+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       902 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:17:57.796844+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-1626381463-8         \t"}
+{"Time":"2019-03-29T20:18:00.527273+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       907 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:00.527743+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2800977979-8         \t"}
+{"Time":"2019-03-29T20:18:03.190278+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       893 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:03.191183+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-7866989054-8         \t"}
+{"Time":"2019-03-29T20:18:05.830032+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       875 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:05.830933+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-8237959171-8         \t"}
+{"Time":"2019-03-29T20:18:08.541908+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       901 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:08.542329+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2052707385-8         \t"}
+{"Time":"2019-03-29T20:18:11.246051+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       905 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:11.246602+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-5519294922-8         \t"}
+{"Time":"2019-03-29T20:18:13.976577+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       907 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:13.977046+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-1269560094-8         \t"}
+{"Time":"2019-03-29T20:18:16.592666+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       868 ns/op\t     672 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:16.593687+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-5184753634-8         \t"}
+{"Time":"2019-03-29T20:18:19.31269+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       906 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:19.313248+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-6382448673-8         \t"}
+{"Time":"2019-03-29T20:18:22.091929+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       922 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:22.092477+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-43808076327-8        \t"}
+{"Time":"2019-03-29T20:18:24.913682+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       928 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:24.914356+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-94340791561-8        \t"}
+{"Time":"2019-03-29T20:18:27.733651+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       938 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:27.734309+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-94696891343-8        \t"}
+{"Time":"2019-03-29T20:18:30.582952+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       941 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:30.583424+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-42090759117-8        \t"}
+{"Time":"2019-03-29T20:18:33.356095+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       922 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:33.356604+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-53538265887-8        \t"}
+{"Time":"2019-03-29T20:18:36.195161+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       944 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:36.195922+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-2854945462-8         \t"}
+{"Time":"2019-03-29T20:18:38.926556+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       901 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:38.926965+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-45904904790-8        \t"}
+{"Time":"2019-03-29T20:18:41.799732+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       949 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:41.800475+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-52249415187-8        \t"}
+{"Time":"2019-03-29T20:18:44.559135+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       921 ns/op\t     688 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:44.559636+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-96124614541-8        \t"}
+{"Time":"2019-03-29T20:18:47.438496+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       957 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:47.439072+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-68630561103-8        \t"}
+{"Time":"2019-03-29T20:18:50.293059+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       944 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:50.293564+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-917599113013-8       \t"}
+{"Time":"2019-03-29T20:18:53.186254+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       958 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:53.187091+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-733326373909-8       \t"}
+{"Time":"2019-03-29T20:18:56.003802+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       936 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:56.004446+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-665987619162-8       \t"}
+{"Time":"2019-03-29T20:18:58.880027+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       952 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:18:58.880648+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-197761449148-8       \t"}
+{"Time":"2019-03-29T20:19:01.679839+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       929 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:01.680337+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-458335948769-8       \t"}
+{"Time":"2019-03-29T20:19:04.558293+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       960 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:04.559595+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-124228206813-8       \t"}
+{"Time":"2019-03-29T20:19:07.442937+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       957 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:07.44355+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-613333684590-8       \t"}
+{"Time":"2019-03-29T20:19:10.319053+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       952 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:10.319766+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-826734099230-8       \t"}
+{"Time":"2019-03-29T20:19:13.186671+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       951 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:13.187395+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-607547682485-8       \t"}
+{"Time":"2019-03-29T20:19:15.984425+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       935 ns/op\t     704 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:15.985055+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"BenchmarkSolution/v3-bench-743253816245-8       \t"}
+{"Time":"2019-03-29T20:19:18.892014+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":" 2000000\t       964 ns/op\t     720 B/op\t       8 allocs/op\n"}
+{"Time":"2019-03-29T20:19:18.892076+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"PASS\n"}
+{"Time":"2019-03-29T20:19:18.904753+01:00","Action":"output","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Output":"ok  \tgithub.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f\t715.949s\n"}
+{"Time":"2019-03-29T20:19:18.90483+01:00","Action":"pass","Package":"github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f","Elapsed":715.949}
