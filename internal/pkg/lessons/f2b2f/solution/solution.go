@@ -15,8 +15,17 @@ func Solution(A int) int {
 
 	var numbers = strings.Split(number, "")
 
+	// "put my thing down, reverse it and reverse it"
+	numbers = hustle(numbers)
+
+	number = strings.Join(numbers, "")
+	B, _ := strconv.Atoi(number) // I can't do anything with the error here
+	return B
+
+}
+
+func hustle(numbers []string) []string {
 	var shuffled []string
-	// "put my thing down, flip it and reverse it"
 	for {
 		// first one
 		head := numbers[0]
@@ -25,18 +34,14 @@ func Solution(A int) int {
 			// exit (that was the last one and we don't want to access numbers[1:]
 			break
 		}
-		// Shift and flip the tail
-		numbers = flip(numbers[1:])
+		// Shift and reverse the tail
+		numbers = reverse(numbers[1:])
 	}
-
-	number = strings.Join(shuffled, "")
-	B, _ := strconv.Atoi(number) // I can't do anything with the error here
-	return B
-
+	return shuffled
 }
 
 // Taken from the slice tricks wiki page
-func flip(s []string) []string {
+func reverse(s []string) []string {
 	for left, right := 0, len(s)-1; left < right; left, right = left+1, right-1 {
 		s[left], s[right] = s[right], s[left]
 	}

@@ -13,18 +13,23 @@ func Solution(A int) int {
 	if len(numbers) <= 2 {
 		return A
 	}
-	var b []string
+	numbers = hustle(numbers)
+
+	number = strings.Join(numbers, "")
+
+	A, _ = strconv.Atoi(number) // I can't do anything with the error here
+
+	return A
+}
+
+func hustle(numbers []string) []string {
+	var shuffled []string
 	for n, m := 0, len(numbers)-1; n <= m; n, m = n+1, m-1 {
-		b = append(b, numbers[n])
+		shuffled = append(shuffled, numbers[n])
 		if n == m {
 			break
 		}
-		b = append(b, numbers[m])
+		shuffled = append(shuffled, numbers[m])
 	}
-
-	number = strings.Join(b, "")
-
-	B, _ := strconv.Atoi(number) // I can't do anything with the error here
-
-	return B
+	return shuffled
 }
