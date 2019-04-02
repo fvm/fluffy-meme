@@ -10,7 +10,11 @@ Presently 3 versions:
 ## Benchmarks
 Running the benchmarks as `go test -a -bench=. -run=XXX -benchmem -benchtime 2s -timeout 20m . > bench-v1.txt` on each respective version (with the same input) allows using `benchcmp` to compare them.
 
-Details below, but the short conclusion: The recursive version (v2) scales better, is faster and uses less memory than the others.
+~~Details below, but the short conclusion: The recursive version (v2) scales better, is faster and uses less memory than the others.~~
+
+The short conclusion is: When using only positive `int` values as input, the recursive (v2) version outperforms the other two.
+
+The slightly longer conclusion is: When you start to test the `hustle([]string) []string` function on increasingly longer strings, above the range of possible `int` input values, the linear (v3) outperforms the other two in terms of speed, whilst the recursive (v2) version outperforms the others in terms of allocs and memory (0 and 0).
 
 ### Version 1 to Version 2
 ```
