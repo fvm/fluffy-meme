@@ -15,19 +15,13 @@ func Solution(A int) int {
 	number := strconv.Itoa(A)
 	numbers := strings.Split(number, "")
 
-	i := 0
-
-	if numbers[0] == "-" { // skip the first
-		i = 1
-	}
-
-	numbers = append(numbers[:i], hustle(numbers[i:])...)
+	numbers = hustle(numbers)
 
 	number = strings.Join(numbers, "")
 
-	B, _ := strconv.Atoi(number) // I can't do anything with the error here
+	A, _ = strconv.Atoi(number) // I can't do anything with the error here
 
-	return B
+	return A
 }
 
 func hustle(s []string) []string {

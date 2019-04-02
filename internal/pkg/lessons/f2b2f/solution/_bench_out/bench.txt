@@ -1,0 +1,39 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f/solution
+Benchmark_hustle/2-8  	500000000	         3.42 ns/op	       0 B/op	       0 allocs/op
+Benchmark_hustle/4-8  	 5000000	       257 ns/op	     112 B/op	       3 allocs/op
+Benchmark_hustle/8-8  	 3000000	       448 ns/op	     240 B/op	       4 allocs/op
+Benchmark_hustle/16-8 	 2000000	       844 ns/op	     496 B/op	       5 allocs/op
+Benchmark_hustle/32-8 	 1000000	      1823 ns/op	    1008 B/op	       6 allocs/op
+Benchmark_hustle/64-8 	  300000	      4701 ns/op	    2032 B/op	       7 allocs/op
+Benchmark_hustle/128-8         	  100000	     13495 ns/op	    4080 B/op	       8 allocs/op
+Benchmark_hustle/256-8         	   30000	     43945 ns/op	    8176 B/op	       9 allocs/op
+Benchmark_hustle/512-8         	   10000	    155347 ns/op	   16368 B/op	      10 allocs/op
+Benchmark_hustle/1024-8        	    3000	    581838 ns/op	   32752 B/op	      11 allocs/op
+Benchmark_hustle/2048-8        	    1000	   2308275 ns/op	  121456 B/op	      14 allocs/op
+Benchmark_hustle/4096-8        	     200	   9577424 ns/op	  252528 B/op	      16 allocs/op
+Benchmark_hustle/8192-8        	      50	  36272902 ns/op	  629360 B/op	      19 allocs/op
+Benchmark_hustle/16384-8       	      10	 147704701 ns/op	 1383024 B/op	      22 allocs/op
+Benchmark_hustle/32768-8       	       2	 585325823 ns/op	 2882160 B/op	      25 allocs/op
+Benchmark_hustle/65536-8       	       1	2325228042 ns/op	 5831280 B/op	      28 allocs/op
+BenchmarkSolution/bench-3-8    	20000000	        61.2 ns/op	      16 B/op	       1 allocs/op
+BenchmarkSolution/bench-71-8   	10000000	       140 ns/op	      34 B/op	       2 allocs/op
+BenchmarkSolution/bench-613-8  	 3000000	       437 ns/op	     166 B/op	       6 allocs/op
+BenchmarkSolution/bench-2029-8 	 3000000	       432 ns/op	     166 B/op	       6 allocs/op
+BenchmarkSolution/bench-74035-8         	 2000000	       613 ns/op	     330 B/op	       7 allocs/op
+BenchmarkSolution/bench-261402-8        	 2000000	       616 ns/op	     330 B/op	       7 allocs/op
+BenchmarkSolution/bench-2629359-8       	 2000000	       717 ns/op	     368 B/op	       7 allocs/op
+BenchmarkSolution/bench-24547482-8      	 2000000	       681 ns/op	     368 B/op	       7 allocs/op
+BenchmarkSolution/bench-465093345-8     	 2000000	       904 ns/op	     672 B/op	       8 allocs/op
+BenchmarkSolution/bench-8295678306-8    	 2000000	       985 ns/op	     688 B/op	       8 allocs/op
+BenchmarkSolution/bench-85605547386-8   	 1000000	      1015 ns/op	     704 B/op	       8 allocs/op
+BenchmarkSolution/bench-528789347646-8  	 1000000	      1089 ns/op	     720 B/op	       8 allocs/op
+BenchmarkSolution/bench-6421242908142-8 	 1000000	      1114 ns/op	     736 B/op	       8 allocs/op
+BenchmarkSolution/bench-71771243324629-8         	 1000000	      1175 ns/op	     752 B/op	       8 allocs/op
+BenchmarkSolution/bench-704229078898971-8        	 1000000	      1168 ns/op	     752 B/op	       8 allocs/op
+BenchmarkSolution/bench-4046455185423042-8       	 1000000	      1227 ns/op	     768 B/op	       8 allocs/op
+BenchmarkSolution/bench-29461204712002348-8      	 1000000	      1512 ns/op	    1360 B/op	       9 allocs/op
+BenchmarkSolution/bench-954492294769786752-8     	 1000000	      1539 ns/op	    1360 B/op	       9 allocs/op
+PASS
+ok  	github.com/fvm/fluffy-meme/internal/pkg/lessons/f2b2f/solution	60.743s

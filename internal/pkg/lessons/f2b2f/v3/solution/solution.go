@@ -7,29 +7,31 @@ import (
 
 func Solution(A int) int {
 
-	// Convert to string and split into 'chars'
 	number := strconv.Itoa(A)
+
 	numbers := strings.Split(number, "")
-	if len(numbers) <= 2 {
-		return A
-	}
+
 	numbers = hustle(numbers)
 
 	number = strings.Join(numbers, "")
 
-	A, _ = strconv.Atoi(number) // I can't do anything with the error here
+	A, _ = strconv.Atoi(number) // <- Bad, but can't fix it
 
 	return A
 }
 
-func hustle(numbers []string) []string {
-	var shuffled []string
-	for n, m := 0, len(numbers)-1; n <= m; n, m = n+1, m-1 {
-		shuffled = append(shuffled, numbers[n])
+func hustle(original []string) []string {
+	if len(original) <= 2 {
+		return original
+	}
+	var shuffled = make([]string, len(original), len(original))
+	for n, m := 0, len(original)-1; n <= m; n, m = n+1, m-1 {
+		shuffled[2*n] = original[n]
 		if n == m {
 			break
 		}
-		shuffled = append(shuffled, numbers[m])
+		shuffled[2*n+1] = original[m]
+
 	}
 	return shuffled
 }

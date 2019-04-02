@@ -8,33 +8,31 @@ import (
 // Solution does a front to back to front
 func Solution(A int) int {
 
-	// Speed is not an issue, so we can go to char array. So no need for doing a base-10 split
-
-	//var numbers []string
 	number := strconv.Itoa(A)
 
-	var numbers = strings.Split(number, "")
+	numbers := strings.Split(number, "")
 
-	// "put my thing down, reverse it and reverse it"
 	numbers = hustle(numbers)
 
 	number = strings.Join(numbers, "")
-	B, _ := strconv.Atoi(number) // I can't do anything with the error here
-	return B
+
+	A, _ = strconv.Atoi(number)
+
+	return A
 
 }
 
 func hustle(numbers []string) []string {
+	if len(numbers) <= 2 {
+		return numbers
+	}
 	var shuffled []string
 	for {
-		// first one
 		head := numbers[0]
 		shuffled = append(shuffled, head)
 		if len(numbers) <= 1 {
-			// exit (that was the last one and we don't want to access numbers[1:]
 			break
 		}
-		// Shift and reverse the tail
 		numbers = reverse(numbers[1:])
 	}
 	return shuffled
